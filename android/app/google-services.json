@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "106094078187",
+    "project_id": "neuro-task-mosaic-5da65",
+    "storage_bucket": "neuro-task-mosaic-5da65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106094078187:android:cfdbb41766eb9d652df6ae",
+        "android_client_info": {
+          "package_name": "com.example.neuro_task_mosaic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP1zkzUd6D5FfJD5LL3sy53YzJQB8SzME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
