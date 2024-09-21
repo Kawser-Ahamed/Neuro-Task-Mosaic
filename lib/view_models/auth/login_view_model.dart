@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:neuro_task_mosaic/view/home/pages/homepage.dart';
+import 'package:neuro_task_mosaic/view/splash_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LoginViewModel extends GetxController{
@@ -19,7 +20,7 @@ class LoginViewModel extends GetxController{
             password: password
         );
         sharedPreferences.setString('email', email);
-        //patientemail = email;
+        patientemail = email;
         Get.offAll(const HomePage());
       } on FirebaseAuthException catch(e){
         //print('FirebaseAuthException: ${e.code}');
